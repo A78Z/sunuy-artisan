@@ -130,7 +130,7 @@ const AnimatedWebsiteLink = () => {
               transition={{ duration: 0.6, delay: 0.3 }}
               className="text-primary-200 font-medium"
             >
-              Projet du Mobilier National
+              Projet du Mobilier National du senegal
             </motion.p>
           </div>
           <motion.div
