@@ -68,7 +68,7 @@ const DownloadModal = ({ isOpen, onClose }: { isOpen: boolean; onClose: () => vo
                     className="h-12"
                   />
                 </a>
-                <a href="#" className="block hover:opacity-90 transition-opacity">
+                <a href="https://play.google.com/store/apps/details?id=com.sunuyartisan.app&hl=fr" className="block hover:opacity-90 transition-opacity">
                   <img
                     src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
                     alt="Télécharger sur Google Play"

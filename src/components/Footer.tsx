@@ -455,7 +455,7 @@ const Footer = () => {
                     />
                   </motion.a>
                   <motion.a
-                    href="#"
+                    href="https://play.google.com/store/apps/details?id=com.sunuyartisan.app&hl=fr"
                     whileHover={{ scale: 1.05 }}
                     className="hover:opacity-80 transition-opacity"
                   >

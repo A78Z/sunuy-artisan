@@ -25,18 +25,13 @@ const categories = [
     image: '/electromanager.webp',
   },
   {
-    id: 'cleaning',
-    name: 'Nettoyage',
-    image: '/cleaning.webp',
-  },
-  {
     id: 'ac',
     name: 'Climatisation',
     image: '/repairing.webp',
   },
   {
     id: 'carpentry',
-    name: 'Menuiserie',
+    name: 'Menuiserie Bois',
     image: '/woodworker.webp',
   },
   {
@@ -48,6 +43,31 @@ const categories = [
     id: 'wallpaper',
     name: 'Tapisserie',
     image: '/canape.webp',
+  },
+  {
+    id: 'hairdressing',
+    name: 'Coiffure',
+    image: '/coiffure.webp',
+  },
+  {
+    id: 'restaurant',
+    name: 'Restauration',
+    image: '/restauration.webp',
+  },
+   {
+    id: 'agri-food',
+    name: 'Agroalimentaire',
+    image: '/agroalimentaire.webp',
+  },
+  {
+    id: 'furnishings',
+    name: 'Ameublement',
+    image: '/ameublement.webp',
+  },
+  {
+    id: 'furnishings',
+    name: 'Panneaux solaires',
+    image: '/solaire.webp',
   },
   {
     id: 'masonry',
@@ -147,7 +167,7 @@ const DownloadModal = ({ isOpen, onClose, categoryName }: { isOpen: boolean; onC
                     className="h-12"
                   />
                 </a>
-                <a href="#" className="block hover:opacity-90 transition-opacity">
+                <a href="https://play.google.com/store/apps/details?id=com.sunuyartisan.app&hl=fr" className="block hover:opacity-90 transition-opacity">
                   <img
                     src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
                     alt="Télécharger sur Google Play"
